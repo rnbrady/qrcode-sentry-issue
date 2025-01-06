@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@bitjson/qr-code':
+        specifier: ^1.0.2
+        version: 1.0.2
       next:
         specifier: 15.1.3
         version: 15.1.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -51,6 +54,9 @@ packages:
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
+
+  '@bitjson/qr-code@1.0.2':
+    resolution: {integrity: sha512-oqcTWhzMs8Dt/xrHKDUzYglccgjVX2GleASd4FsE7TGGUkW8n57tBjKmfwkAVWa722+v6ijS81EmWbd07ebsmQ==}
 
   '@emnapi/runtime@1.3.1':
     resolution: {integrity: sha512-kEBmG8KyqtxJZv+ygbEim+KCGtIq1fC22Ms3S4ziXmYKm8uyoLX0MHONVKwp+9opg390VaKRNt4a7A9NwmpNhw==}
@@ -1670,6 +1676,8 @@ packages:
 snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
+
+  '@bitjson/qr-code@1.0.2': {}
 
   '@emnapi/runtime@1.3.1':
     dependencies:
